@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Examen Nelson</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Plataformas de despliegue</h2>
+<p>Si bien el concepto no es nuevo, aparece ahora debido al aumento de la popularidad de Internet, que ha generado un brutal crecimiento de la cobertura geográfica 
+    y la mejora de la calidad del servicio en general. Estos cambios favorecen la aceptación de las tecnologías basadas en sistemas remotos, y las empresas de cualquier tamaño empiezan a situar parte de su capacidad de proceso en la red.
+
+    </p>
+<p> La oferta de proveedores de Cloud Computing se vuelve cada día más fiable, madura y atractiva, debido a varias razones:</p>
+<div class="header">
+  <h2>CLOUD COMPUTER</h2>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">Las aplicaciones informáticas se sitúan y gestionan en grandes Data Centers remotos que prestan servicio a múltiples clientes a través de Internet.</div>
+  <div class="column" style="background-color:rgb(255, 255, 255);">Actores importantes como Google, Microsoft, Amazon, Salesforce, IBM, ATT, etc. han comenzado a ofrecer servicios de Cloud Computing y conceden gran importancia a su posicionamiento, generando competencia e innovación en el campo.</div>
+  <div class="column" style="background-color:#ccc;">Las tecnologías y estándares esenciales para su funcionamiento (la virtualización, gestión de grandes servidores, web services, web 2.0, etc.) han madurado lo suficiente y la industria ha adquirido experiencia en el mantenimiento de grandes Data Centers, hasta el punto de que actualmente resultan más rentables de gestionar a medida que aumenta su tamaño.</div>
+</div>
+
+<div class="footer">
+  <p>Nelson Torres Evaluación Fromativa</p>
+</div>
+
+</body>
+</html>
+
+
